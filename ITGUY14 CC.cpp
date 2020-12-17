@@ -22,14 +22,17 @@ int main() {
             cin>>x2;
             if(j == x2) {
                 //v.push_back(x2);
-                cout<<x2<<" ";
+                cout<<x2;
             } else {
                 //v.push_back(0);
-                cout<<0<<" ";
+                cout<<0;
             }
+        if((j < x-1))
+            cout<<" ";
     }
     //printVector(v);
-    cout<<endl;
+    if((i < n-1))
+        cout<<endl;
     //v.clear();
     }
     return 0;
